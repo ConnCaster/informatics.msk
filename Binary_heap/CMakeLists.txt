@@ -1,0 +1,6 @@
+add_executable(Hip Hip!/hip.cpp)
+add_executable(Piramid_sorting Piramid_sorting/piramid_sorting.cpp)
+add_executable(Minimum_in_segment Minimum_in_segment/minimum_in_segment.cpp)
+add_executable(Build_heap_from_array Build_heap_from_array/build_heap.cpp)
+add_executable(Priority_queue Priority_queue/priority_queue.cpp)
+add_executable(Priority_queue_with_remove Priority_queue_with_remove/priority_queue_remove.cpp)
