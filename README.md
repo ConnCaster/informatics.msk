@@ -1,10 +1,10 @@
-## Graphs
+# Graphs
 
 Tasks on https://informatics.msk.ru/ in section *graphs*
 
 | №      |        Taskname         | Rating, % |
 |--------|:-----------------------:|----------:|
-| 111841 |      findRoot loop      |       100 |
+| 111841 |      FindRoot loop      |       100 |
 | 111541 |         Baobab          |       100 |
 | 166    |         Solders         |        92 |
 | 111649 |  Shortest path length   |       100 |
@@ -21,3 +21,33 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 605    |       Linked set        |       100 |
 | 1316   |         Schools         |       100 |
 | 3373   |     Printed scheme      |       100 |
+
+
+# Piramid Sortings
+
+| №    |           Taskname           | Rating, % |
+|------|:----------------------------:|----------:|
+| 754  |       Piramid sorting        |       100 |
+| 755  |             Hip!             |       100 |
+| 756  |      Minimum on segment      |       100 |
+| 1167 |        Priority queue        |       100 |
+| 1168 | Priority queue with removing |       100 |
+
+
+# Polyakov-Eremin
+## Symbol strings
+| №      |    Taskname     | Rating, % |
+|--------|:---------------:|----------:|
+| 112339 |   First word    |       100 |
+| 112340 |    Last word    |         2 |
+| 112341 |  Longest word   |         8 |
+| 112342 | How many words  |         8 |
+
+
+## Symbol strings II
+| №       |           Taskname           | Rating, % |
+|---------|:----------------------------:|----------:|
+| 112406  |         Blue and red         |       100 |
+| 112409  |        Sorting string        |       100 |
+| 112357  |         Tumba Yumba          |       100 |
+| 112360  |        Tumba Yumba 3         |       100 |

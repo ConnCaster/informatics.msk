@@ -1,0 +1,7 @@
+add_executable(Blue_and_Red Blue_and_Red/blue_and_red.cpp)
+add_executable(Blue_and_Red_test Blue_and_Red/test.cpp)
+add_executable(Sorting_string Sorting_string/sorting_string.cpp)
+add_executable(Sorting_string_test Sorting_string/test.cpp)
+add_executable(Tumba_Yumba Tumba_Yumba/tumba_yumba.cpp)
+add_executable(Tumba_Yumba_test Tumba_Yumba/test.cpp)
+add_executable(Tumba_Yumba_3 Tumba_Yumba_3/tumba_yumba_3.cpp)

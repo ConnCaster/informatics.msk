@@ -25,3 +25,5 @@ add_executable(Ford_Bellman Graphs/Floyd_Ford_Bellman/Ford_Bellman/ford_bellman.
 add_executable(Path_by_time Graphs/Floyd_Ford_Bellman/Paths_by_time/paths_by_time.cpp)
 
 add_subdirectory(Graphs/Boruvka)
+add_subdirectory(Binary_heap)
+add_subdirectory(Polyakov-Eremin)

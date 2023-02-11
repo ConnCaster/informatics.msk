@@ -1,0 +1,2 @@
+add_subdirectory(Symol_strings)
+add_subdirectory(Symbol_strings_2)
