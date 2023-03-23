@@ -27,3 +27,6 @@ add_executable(Path_by_time Graphs/Floyd_Ford_Bellman/Paths_by_time/paths_by_tim
 add_subdirectory(Graphs/Boruvka)
 add_subdirectory(Binary_heap)
 add_subdirectory(Polyakov-Eremin)
+add_subdirectory(RMQ)
+
+add_subdirectory(OOP)

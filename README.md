@@ -51,3 +51,13 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 112409  |        Sorting string        |       100 |
 | 112357  |         Tumba Yumba          |       100 |
 | 112360  |        Tumba Yumba 3         |       100 |
+
+
+## RMQ
+| №    |     Taskname     | Rating, % |
+|------|:----------------:|----------:|
+| 3308 | Sum on substings |       100 |
+| 2772 | Sum in rectangle |       100 |
+| 752  |       RMQ        |       100 |
+| 3313 |   Zero ammount   |       100 |
+| 1361 |  Ticket trading  |       100 |

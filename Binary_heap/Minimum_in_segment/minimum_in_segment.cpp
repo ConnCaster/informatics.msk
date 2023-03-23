@@ -23,14 +23,16 @@ struct Min {
     }
 };
 
+
 int main() {
     Min m;
     int n, k;
     std::cin >> n >> k;
 
-    typedef std::istream_iterator<int> in;
     std::vector<int> v(n);
-    std::copy(in(std::cin), in(), v.begin());
+    for (int i = 0; i < n; ++i) {
+        std::cin >> v[i];
+    }
 
     for (int i = 0; i < k; ++i)
         m.push(v[i]);
