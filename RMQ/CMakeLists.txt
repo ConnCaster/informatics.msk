@@ -1,8 +1,11 @@
 add_executable(Subsums Subsums/correct.cpp)
 add_executable(Subsums_2 Subsums/subsums_2.cpp)
-
 add_executable(SumOnRect Sum_on_rectangle/sum_on_rect.cpp)
-
 add_executable(RMQ RMQ/rmq.cpp)
 add_executable(Zero_ammount_on_interval Zero_ammount_on_interval/zero_ammount.cpp)
 add_executable(ETrain ETrain/ETrain.cpp)
+
+add_executable(GCD GCD/gcd.cpp)
+add_executable(GCD_with_update GCD_with_update/gcd_with_update.cpp)
+add_executable(MAX_with_update MAX_with_update/max_with_update.cpp)
+add_executable(Max_with_index Max_with_index/max_with_index.cpp)

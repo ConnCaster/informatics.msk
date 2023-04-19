@@ -23,10 +23,12 @@ add_executable(Dangerous_path_test Graphs/Floyd_Ford_Bellman/Dangerous_path/test
 add_executable(Dangerous_path Graphs/Floyd_Ford_Bellman/Dangerous_path/dangerous_path.cpp)
 add_executable(Ford_Bellman Graphs/Floyd_Ford_Bellman/Ford_Bellman/ford_bellman.cpp)
 add_executable(Path_by_time Graphs/Floyd_Ford_Bellman/Paths_by_time/paths_by_time.cpp)
+add_executable(Labyrinth Graphs/Floyd_Ford_Bellman/Labirint/labirint.cpp)
 
 add_subdirectory(Graphs/Boruvka)
 add_subdirectory(Binary_heap)
 add_subdirectory(Polyakov-Eremin)
 add_subdirectory(RMQ)
+add_subdirectory(Decart_tree)
 
 add_subdirectory(OOP)

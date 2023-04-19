@@ -2,20 +2,17 @@
 #include <cmath>
 #include <vector>
 #include <climits>
-
+#include <iostream>
 
 using namespace std;
 
 int main() {
-    // решал методом sqrt-декомпозиции
 
     int N, K, maxSizeOfN = 100000;
     int SIZE_OF_GROUP = (int)ceil(sqrt(maxSizeOfN / 2));
     //определение оптимального размера группы для худшего случая
     // (использование последовательности с максимальным количеством элементов N = 10^5)
-    scanf("%d",&N);
-    //там вообще определяется корнем из N размер группы, но всякие типы говорят, что  N/2 тоже прокатывает.
-    // Тут, как минимум на тестах информатикса все заебись)
+    std::cin >> N;
 
     int numberOfGroup = N / SIZE_OF_GROUP;
     vector<int> numbers(1+N);  // анализируемая последовательность
@@ -26,21 +23,21 @@ int main() {
 
 
     for (int i = 1; i <= N; i++) {
-        scanf("%d",&numbers[i]);
+        std::cin >> numbers[i];
         if (numbers[i] > maxNumInGroup[i / SIZE_OF_GROUP]) { //сравниваем с максимальным элементом в каждой подгруппе
             maxNumInGroup[i / SIZE_OF_GROUP] =  numbers[i];
-            indexOfMaxNumInGroup[i / SIZE_OF_GROUP]=i;
+            indexOfMaxNumInGroup[i / SIZE_OF_GROUP]= i;
         }
     }
 
-    scanf("%d",&K);
+    std::cin >> K;
 
     //выполнение запросов
     for (int i = 0; i < K; i++) {
         int l; //l и r границы отрезка из условий
         int r;
 
-        scanf("%d %d",&l, &r);
+        std::cin >> l >> r;
 
         int maxNumberInSegment = INT_MIN;
         int indexOfMaxNumInSegment = 0;
@@ -79,7 +76,7 @@ int main() {
         indexesOfMaxElements.push_back(indexOfMaxNumInSegment);
     }
     for (int i = 0; i < K; i++) {
-        printf("%d %d\n", maxElements[i], indexesOfMaxElements[i]);
+        std::cout << maxElements[i] << " " << indexesOfMaxElements[i] << std::endl;
     }
     return 0;
 }

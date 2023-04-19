@@ -21,6 +21,7 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 605    |       Linked set        |       100 |
 | 1316   |         Schools         |       100 |
 | 3373   |     Printed scheme      |       100 |
+| 179    |        Labyrinth        |       100 |
 
 
 # Piramid Sortings
@@ -33,6 +34,12 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 1167 |        Priority queue        |       100 |
 | 1168 | Priority queue with removing |       100 |
 
+# Decard Tree
+
+| №    |     Taskname     | Rating, % |
+|------|:----------------:|----------:|
+| 2781 |   Decart Tree    |       100 |
+| 2791 | At the beginning |       100 |
 
 # Polyakov-Eremin
 ## Symbol strings
@@ -61,3 +68,7 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 752  |       RMQ        |       100 |
 | 3313 |   Zero ammount   |       100 |
 | 1361 |  Ticket trading  |       100 |
+| 3314 |       GCD        |       100 |
+| 3321 | GCD with update  |       100 |
+| 3310 |   Index of max   |       100 |
+| 3328 | Index of max with update  |       100 |
