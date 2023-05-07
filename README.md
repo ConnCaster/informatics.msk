@@ -72,3 +72,15 @@ Tasks on https://informatics.msk.ru/ in section *graphs*
 | 3321 | GCD with update  |       100 |
 | 3310 |   Index of max   |       100 |
 | 3328 | Index of max with update  |       100 |
+
+
+## Dynamic Programming
+| №    |     Taskname     | Rating, % |
+|------|:----------------:|----------:|
+| 915  | The cheapest way |       100 |
+| 843  | Simple sequence  |       100 |
+| 912  |  Without three   |       100 |
+| 210  |       Pins       |       100 |
+| 913  | Explosion hazard |       100 |
+| 206  |   Around table   |       100 |
+| 1002 |   Buy tickets    |       100 |

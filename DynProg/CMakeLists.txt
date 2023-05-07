@@ -1,0 +1,7 @@
+add_executable(The_cheapest_way The_cheapest_way/the_cheapest_way.cpp)
+add_executable(Simple_sequence Simple_sequence/simple_sequence.cpp)
+add_executable(Without_three Without_three/without_three.cpp)
+add_executable(Pins Pins/pins.cpp)
+add_executable(Explosion Explosion/explosion.cpp)
+add_executable(Around_table Around_table/around_table.cpp)
+add_executable(Buy_tickets Buy_tickets/buy_tickets.cpp)

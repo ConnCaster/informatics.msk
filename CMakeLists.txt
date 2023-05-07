@@ -30,5 +30,6 @@ add_subdirectory(Binary_heap)
 add_subdirectory(Polyakov-Eremin)
 add_subdirectory(RMQ)
 add_subdirectory(Decart_tree)
+add_subdirectory(DynProg)
 
 add_subdirectory(OOP)
